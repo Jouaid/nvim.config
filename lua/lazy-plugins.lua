@@ -47,6 +47,15 @@ require('lazy').setup({
 
       -- Adds a number of user-friendly snippets
       'rafamadriz/friendly-snippets',
+
+      -- For suggestion icons
+      'onsails/lspkind.nvim',
+
+      -- copilot
+      {
+        "zbirenbaum/copilot-cmp",
+        opts = {},
+      }
     },
   },
 
